@@ -5,8 +5,8 @@
 
 - AppDatabase - *Wrapper/helper for the shared preferences of Android.*
 - DateTimeUtil - *Set of utilities to handle date manipulation.*
-- ImageUtil - *A simple library that handle image manipulation.*
-- JsonUtil - *A simple library for JSONObjet Parsing.*
+- ImageUtil - *A simple library that handles image manipulation.*
+- JsonUtil - *A simple library for JSONObjet parse.*
 - SystemUtil - *Useful functions for change system UI and get system info.*
 - TextUtil - *Useful functions for text manipulation and validation.*
 - Validator - *Validation Utility class for adding validations to input fields in Android.*
