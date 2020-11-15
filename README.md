@@ -26,7 +26,7 @@ allprojects {
 **Step 2. Add the dependency**
 ###### Add the following dependency to your module `build.gradle` file:
 ```groovy
-	dependencies {
-	        implementation 'com.github.rshavinda:android-utility-library:v1.0.1'
-	}
+  dependencies {
+     implementation 'com.github.rshavinda:android-utility-library:v1.0.1'
+  }
 ```
