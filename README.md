@@ -15,7 +15,7 @@
 ## Installation
 
 **Step 1. Add the JitPack repository to your build file**
-###### And the following dependency to your app `build.gradle` file:
+###### Add the following dependency to your app `build.gradle` file:
 
 ```groovy
 allprojects {
