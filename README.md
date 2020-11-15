@@ -1,8 +1,7 @@
 # Android Utility Library
 [![API](https://img.shields.io/badge/API-15%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=15)
 
-- AppDatabase
-	- Wrapper/helper for the shared preferences of Android
+- AppDatabase - *Wrapper/helper for the shared preferences of Android*
 - DateTimeUtil
 - ImageUtil
 - JsonUtil
