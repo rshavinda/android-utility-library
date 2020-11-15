@@ -1,4 +1,6 @@
 # Android Utility Library
+"android-utility-library" is an Android-library, which provides various utility classes for use in Android app development.
+⚬ Android 4.0.3+ (API level 15+) ⚬ Language : Java
 [![API](https://img.shields.io/badge/API-15%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=15)
 
 - AppDatabase - *Wrapper/helper for the shared preferences of Android*
