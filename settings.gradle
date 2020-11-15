@@ -1,0 +1,3 @@
+include ':android-utility-library'
+include ':app'
+rootProject.name = "Utility Library"
