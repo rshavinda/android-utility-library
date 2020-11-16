@@ -1,4 +1,4 @@
-package rshavinda.androidutil;
+package amazonite.androidutils;
 
 import org.junit.Test;
 

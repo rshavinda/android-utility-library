@@ -1,4 +1,4 @@
-package rshavinda.androidutil;
+package amazonite.android.util;
 
 import android.annotation.SuppressLint;
 import android.util.Log;

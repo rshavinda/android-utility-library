@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "rshavinda.androidutil"
+        applicationId "amazonite.android.utils"
         minSdkVersion 15
         targetSdkVersion 30
         versionCode 1

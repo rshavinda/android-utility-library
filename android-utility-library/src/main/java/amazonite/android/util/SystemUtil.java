@@ -1,4 +1,4 @@
-package rshavinda.androidutil;
+package amazonite.android.util;
 
 
 import android.app.Activity;
@@ -12,6 +12,8 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
+
+import amazonite.android.BuildConfig;
 
 import static android.os.Build.BRAND;
 import static android.os.Build.DEVICE;

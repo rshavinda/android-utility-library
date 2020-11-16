@@ -1,4 +1,4 @@
-package rshavinda.androidutil;
+package amazonite.android.util;
 
 import android.content.Context;
 import android.util.Log;

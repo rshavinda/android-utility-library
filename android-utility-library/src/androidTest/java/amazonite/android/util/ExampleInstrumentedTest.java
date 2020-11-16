@@ -1,4 +1,4 @@
-package rshavinda.androidutil;
+package amazonite.android.util;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("rshavinda.utilitylibrary", appContext.getPackageName());
+        assertEquals("amazonite.android.utils.test", appContext.getPackageName());
     }
 }
