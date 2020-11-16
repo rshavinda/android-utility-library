@@ -13,7 +13,6 @@ import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 
-import amazonite.android.BuildConfig;
 
 import static android.os.Build.BRAND;
 import static android.os.Build.DEVICE;
