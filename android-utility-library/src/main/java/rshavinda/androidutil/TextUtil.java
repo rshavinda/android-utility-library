@@ -1,4 +1,4 @@
-package rshavinda.androidutilitylibrary;
+package rshavinda.androidutil;
 
 import android.util.Log;
 import android.widget.EditText;

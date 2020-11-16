@@ -1,4 +1,4 @@
-package rshavinda.androidutilitylibrary;
+package rshavinda.androidutil;
 
 import org.junit.Test;
 

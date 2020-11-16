@@ -1,4 +1,4 @@
-package rshavinda.androidutilitylibrary;
+package rshavinda.androidutil;
 
 import android.content.Context;
 import android.graphics.Bitmap;

@@ -1,4 +1,4 @@
-package rshavinda.androidutilitylibrary;
+package rshavinda.androidutil;
 
 import android.annotation.SuppressLint;
 import android.util.Log;

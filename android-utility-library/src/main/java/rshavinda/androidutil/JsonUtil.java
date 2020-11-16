@@ -1,4 +1,4 @@
-package rshavinda.androidutilitylibrary;
+package rshavinda.androidutil;
 
 import android.content.Context;
 import android.util.Log;
@@ -10,7 +10,6 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.nio.charset.StandardCharsets;
 
 public class JsonUtil {
     private static final String TAG = JsonUtil.class.getSimpleName();
@@ -32,7 +31,7 @@ public class JsonUtil {
             final int read = inputStream.read(buffer);
             inputStream.close();
             if (read > 0) {
-                return new String(buffer, StandardCharsets.UTF_8);
+                return new String(buffer, "UTF-8");
             }
         } catch (IOException ex) {
             Log.e(TAG, "loadJSONFromAsset: ", ex);
