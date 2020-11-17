@@ -148,9 +148,10 @@ public class DateTimeUtil {
     /**
      * @return UnixTimestamp (returns milliseconds since Jan 1, 1970)
      */
-    private static long getUnixTimestamp() {
+    public static long getUnixTimestamp() {
         return System.currentTimeMillis();
     }
+
 
     /**
      * @param format - date time format (Ex : "yyyy-MM-dd hh:mma")

@@ -113,6 +113,23 @@ public class TextUtil {
     }
 
     /**
+     * Get long from string variable
+     *
+     * @param string - string value
+     * @return double - long value
+     */
+    public static long getLongValue(String string) {
+        if (getStringValue(string).isEmpty()) return 0;
+
+        try {
+            return Long.parseLong(string);
+        } catch (NumberFormatException e) {
+            Log.e(TAG, "getDoubleValue: ", e);
+            return 0;
+        }
+    }
+
+    /**
      * Get String from EditText variable
      *
      * @param editText - EditText variable
@@ -150,5 +167,15 @@ public class TextUtil {
      */
     public static double getDoubleValue(EditText editText) {
         return (editText == null ? 0 : getDoubleValue(editText.getText().toString()));
+    }
+
+    /**
+     * Get long from EditText variable
+     *
+     * @param editText - EditText variable
+     * @return long value
+     */
+    public static long getLongValue(EditText editText) {
+        return (editText == null ? 0 : getLongValue(editText.getText().toString()));
     }
 }
