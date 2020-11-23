@@ -145,7 +145,7 @@ public class Validator {
      * @param editText : EditText variable of email
      * @return Valid Format = true | Invalid format = false
      */
-    private static boolean isFieldEmailValid(EditText editText) {
+    public static boolean isFieldEmailValid(EditText editText) {
         String value = getStringValue(editText.getText().toString());
 
         if(isEmptyString(value)){
