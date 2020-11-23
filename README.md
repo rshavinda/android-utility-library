@@ -30,7 +30,7 @@ allprojects {
 ###### Add the following dependency to your module `build.gradle` file:
 ```groovy
   dependencies {
-     implementation 'com.github.rshavinda:android-utility-library:1.0.4'
+     implementation 'com.github.rshavinda:android-utility-library:1.0.5'
   }
 ```
 
